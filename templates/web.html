@@ -3,11 +3,22 @@
 <head>
 	<meta http-equiv="refresh" content="10">
 	<title>Web Excercise</title>
+	<style>
+    	html { 
+  			background: url(/static/background1.jpg) no-repeat center fixed; 
+  			background-size: cover;
+    	}
+    	body {
+    		color: white;
+
+    	}
+    	h1 { text-align: center}
+	</style>
 </head>
 <body>
 	<h1>The time is: {{ list[0] }}</h1>
-	<h1>The month is: {{ list[1] }}</h1>
-	<h1>The day is: {{ list[2] }}</h1>
-	<h1>The year is: {{ list[3] }}</h1>
+	<h1>Month: {{ list[1] }}</h1>
+	<h1>Day: {{ list[2] }}</h1>
+	<h1>Year: {{ list[3] }}</h1>
 </body>
 </html>
